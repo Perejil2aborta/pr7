@@ -1,0 +1,11 @@
+def convert_number():
+    desat_chislo = int(input("Введите десятичное число: "))
+    
+    dvoika_chislo = bin(desat_chislo)
+    
+    vosem_chislo = oct(desat_chislo)
+    
+    print(f"Двоичное представление: {dvoika_chislo[2:]}")
+    print(f"Восьмеричное представление: {vosem_chislo[2:]}")
+
+convert_number()
